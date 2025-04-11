@@ -1,26 +1,29 @@
 @import "tailwindcss";
+/*
+#f5dbb0 – Background parchment paper
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+#3e2b16 – Button & header text ("Send", "Send an Anonymous Message")
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+#c6b392 – Envelope shading and borders
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+#7c6551 – Input placeholder text and border
+
+#d4433b – Airmail envelope red border
+
+#2d4b75 – Airmail envelope blue border 
+*/
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: "Merriweather Sans",  sans-serif;
+}
+::placeholder {
+  color: #7c6551;
+  font-size: 16px;
+}
+
+
+input,
+textarea {
+  caret-color: #7c6551;
 }
