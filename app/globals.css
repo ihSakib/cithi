@@ -1,29 +1,16 @@
 @import "tailwindcss";
-/*
-#f5dbb0 – Background parchment paper
-
-#3e2b16 – Button & header text ("Send", "Send an Anonymous Message")
-
-#c6b392 – Envelope shading and borders
-
-#7c6551 – Input placeholder text and border
-
-#d4433b – Airmail envelope red border
-
-#2d4b75 – Airmail envelope blue border 
-*/
 
 body {
   margin: 0;
-  font-family: "Merriweather Sans",  sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 ::placeholder {
-  color: #7c6551;
+  color: theme('colors.placeholder-primary');
   font-size: 16px;
 }
 
 
 input,
 textarea {
-  caret-color: #7c6551;
+  caret-color: theme('colors.accent');
 }
