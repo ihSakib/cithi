@@ -43,12 +43,10 @@ export default function Home() {
     <>
       <section
         style={{ backgroundImage: `url('/bg.jpg')` }}
-        className="mx-auto max-w-lg min-h-screen bg-cover bg-center py-10 px-10 md:px-15"
+        className="mx-auto  max-w-lg min-h-screen bg-cover bg-center py-10 px-10 md:px-15"
       >
         <section className="mt-25 text-center">
-          <h1 className="text-2xl font-bold text-[#3e2b16] mb-6 drop-shadow">
-            ✍️ চিঠি দিবস
-          </h1>
+        
           <form className="w-full relative" onSubmit={handleSubmit}>
             <div className="max-w-40 absolute left-0 right-0 mx-auto -top-15">
               <img className="w-full" src="/envelop2.png" alt="Envelope" />

@@ -1,16 +1,7 @@
 @import "tailwindcss";
 
-body {
+ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
-::placeholder {
-  color: theme('colors.placeholder-primary');
-  font-size: 16px;
-}
 
-
-input,
-textarea {
-  caret-color: theme('colors.accent');
-}
